@@ -1,6 +1,6 @@
 # MeteorShowerProject
  
-## Meteor shower predictions for a certain city
+## Meteor shower predictions for a certain city using machine learning
 
 Comets, Moon phases, and place on Earth influence the observation of the meteor showers.
 
@@ -46,4 +46,12 @@ These are the phases of the Moon:
     Waning crescent
 
 New Moon, first quarter, full Moon, and third quarter are the most frequently tracked phases. The phases cycle every 29 days, so the exact dates depend on the number of days in the month.
+
+### Data
+
+Data has been gathered from:
+- moonphases.csv - This file contains the Moon phases for every day of 2021. Data acquired from timeanddate.com.
+- meteorshowers.csv - This file contains data for each of the five meteor showers described earlier. Data includes their preferred viewing month, the months when they're visible, and the preferred hemisphere for viewing. Data acquired from NASA.
+- constellations.csv - This file contains data for the four constellations that are radiants for the five meteor showers. Data includes the latitudes for which they're visible and the month for the best viewing. Data acquired from Wikipedia.
+- cities.csv - This file contains a list of country capitals and their associated latitudes. Data acquired from Wikipedia.
 
