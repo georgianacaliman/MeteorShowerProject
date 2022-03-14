@@ -2,6 +2,10 @@
  
 ## Meteor shower predictions for a certain city using machine learning
 
+This project uses Jupiter Notebooks, Python libraries such as pandas and numpy, and machine learning to predict meteor showers. This is my attempt to play with Python to analyze data and make predictions. Data has been acquired from NASA, Wikipedia, and other open sources. 
+
+### Intro
+
 Comets, Moon phases, and place on Earth influence the observation of the meteor showers.
 
 Meteoroids can come from comets, asteroids, moons, and planets - here, the focus is on meteoroids that come from 4 popular comets.
